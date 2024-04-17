@@ -26,6 +26,7 @@
             "useTabs": true,
             "endOfLine": "auto",
             "max-len": ["error", { "code": 80 }],
+            "plugins": ["@trivago/prettier-plugin-sort-imports"],
             "importOrder": [
               "^react(.*)$",
               "<THIRD_PARTY_MODULES>",
